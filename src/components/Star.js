@@ -5,7 +5,7 @@ function Star(props) {
   <FontAwesomeIcon
     icon={faStar} 
     className={props.selected? "star selected" : "star"}
-    onClick={props.onClick}/>
+    onClick={props.onSelect}/>
   );
 }
 export default Star;

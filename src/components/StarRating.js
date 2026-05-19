@@ -15,4 +15,4 @@ function starRating() {
    </div>
   );
 }
-export default starRating;
+export default StarRating;
