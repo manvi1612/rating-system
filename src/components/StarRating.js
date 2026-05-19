@@ -1,8 +1,11 @@
 import { useState } from "react";
 import Star from "./Star";
-function starRating() {
+
+function StarRating() {
   const [starRating, setStarRating] = useState(0);
+
   const feedback = ["Bad", "Ok", "Good", "Very Good", "Excellent"];
+ 
   return (
    <div className="star-container">
     {[1, 2, 3, 4, 5].map((star) => (
