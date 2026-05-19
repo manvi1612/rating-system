@@ -8,10 +8,10 @@ function starRating() {
     {[1, 2, 3, 4, 5].map((star) => (
     <Star
       key={star}
-      selected={star <= rating}
+      selected={star <= starRating}
       onSelect={() => setStarRating(star)} />
     ))}
-    <h2>{feedback[rating]}</h2>
+    <h2>{feedback[starRating]}</h2>
    </div>
   );
 }
